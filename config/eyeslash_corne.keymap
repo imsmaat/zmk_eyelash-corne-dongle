@@ -91,7 +91,6 @@
             key-positions = <3 4>;
             layers = <0>;
             require-prior-idle-ms = <150>;
-
         };
 
         right-parenthesis {
@@ -144,10 +143,10 @@
         layer_3 {
             display-name = "Num";
             bindings = <
-&none          &kp LG(Q)  &kp LG(W)  &kp LG(LEFT_BRACKET)  &kp LG(R)  &kp LG(RIGHT_BRACKET)                    &trans          &kp KP_PLUS   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK  &kp KP_DIVIDE
-&kp SPACE      &kp LCTRL  &kp LALT   &kp LGUI              &kp LSHFT  &kp LS(LG(LA(LCTRL)))            &trans  &trans  &trans  &kp KP_DOT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &none
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)             &kp LG(V)  &kp DELETE             &trans            &trans          &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &none
-                                     &trans                &trans     &trans                                                   &trans        &trans           &trans
+&none          &kp LG(Q)  &kp LG(W)  &kp LG(LEFT_BRACKET)  &kp LG(R)  &kp LG(RIGHT_BRACKET)                    &trans          &kp KP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp SPACE      &kp LCTRL  &kp LALT   &kp LGUI              &kp LSHFT  &kp LS(LG(LA(LCTRL)))            &trans  &trans  &trans  &kp KP_DOT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0     &none
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)             &kp LG(V)  &kp DELETE             &trans            &trans          &kp KP_MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL     &none
+                                     &trans                &trans     &trans                                                   &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
