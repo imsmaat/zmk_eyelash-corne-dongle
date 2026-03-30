@@ -398,5 +398,7 @@ combos:
   l: [Base]
 - p: [3, 4]
   k: (
+  l: [Base]
 - p: [8, 9]
   k: )
+  l: [Base]
