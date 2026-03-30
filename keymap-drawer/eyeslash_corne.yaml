@@ -104,9 +104,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '[', s: '{'}
+  - '{'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ']', s: '}'}
+  - '}'
   - ^
   - '&'
   - '%'
