@@ -176,11 +176,11 @@ layers:
   - KP 6
   - KP 0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft+UNDO
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - AC REDO
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
