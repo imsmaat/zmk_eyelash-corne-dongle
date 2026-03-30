@@ -176,11 +176,11 @@ layers:
   - KP 6
   - KP 0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AC REDO
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - Sft+Gui+Z
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
