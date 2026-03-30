@@ -34,6 +34,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -42,9 +43,11 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
+
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -53,6 +56,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
@@ -110,10 +114,10 @@
         layer_1 {
             display-name = "Nav";
             bindings = <
-&trans  &kp BSPC   &kp BSPC  &kp BSPC  &kp BSPC   &kp BSPC                                 &trans          &kp DEL   &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &kp LS(LG(Z))
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &kp LS(LG(LA(LCTRL)))            &trans  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT   &trans
-&trans  &kp DEL    &kp DEL   &kp DEL   &kp DEL    &kp DEL                &trans            &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans     &trans
-                             &trans    &trans     &trans                                                   &trans    &trans     &trans
+&trans  &kp BSPC   &kp BSPC  &kp BSPC  &kp BSPC   &kp BSPC                                &trans          &kp DEL   &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &kp LS(LG(Z))
+&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &kp LS(LG(LA(LCTRL)))           &trans  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none      &none
+&trans  &kp DEL    &kp DEL   &kp DEL   &kp DEL    &kp DEL                &none            &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none      &none
+                             &trans    &trans     &trans                                                  &trans    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -192,4 +196,3 @@
         };
     };
 };
-
