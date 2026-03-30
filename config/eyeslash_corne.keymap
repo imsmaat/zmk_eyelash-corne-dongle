@@ -44,7 +44,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <14 15 16 17 18>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
 
@@ -57,7 +57,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <22 23 24 25 26>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
     };
