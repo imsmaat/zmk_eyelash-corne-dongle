@@ -138,10 +138,10 @@
         layer_3 {
             display-name = "Num";
             bindings = <
-&none           &kp LG(Q)   &kp LG(W)  &kp LG(LEFT_BRACKET)  &kp LG(R)    &kp LG(RIGHT_BRACKET)                    &trans          &kp KP_PLUS   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK  &kp KP_DIVIDE
-&kp SPACE       &kp LCTRL   &kp LALT   &kp LGUI              &kp LSHFT    &kp LS(LG(LA(LCTRL)))            &trans  &trans  &trans  &kp KP_DOT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &none
-&kp LS(K_UNDO)  &kp K_UNDO  &kp K_CUT  &kp K_COPY            &kp K_PASTE  &kp DELETE             &trans            &trans          &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &none
-                                       &trans                &trans       &trans                                                   &trans        &trans           &trans
+&none          &kp LG(Q)      &kp LG(W)     &kp LG(LEFT_BRACKET)  &kp LG(R)       &kp LG(RIGHT_BRACKET)                    &trans          &kp KP_PLUS   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp SPACE      &kp LCTRL      &kp LALT      &kp LGUI              &kp LSHFT       &kp LS(LG(LA(LCTRL)))            &trans  &trans  &trans  &kp KP_DOT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &none
+&kp C_AC_REDO  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY         &kp C_AC_PASTE  &kp DELETE             &trans            &trans          &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &none
+                                            &trans                &trans          &trans                                                   &trans        &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
