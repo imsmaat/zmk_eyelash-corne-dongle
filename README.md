@@ -1,4 +1,6 @@
-# Corne键位图
+# Keymap for Corne (Eyelash version)
+
+Based on [Engram layout by Arno Klein](https://github.com/binarybottle/engram)
 
 Edited with [Nick Coutsos's Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
 
