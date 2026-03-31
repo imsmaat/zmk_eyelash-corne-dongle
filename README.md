@@ -1,6 +1,6 @@
-# Keymap for Corne (Eyelash version)
+# Keymap for Corne (Eyelash Version)
 
-Based on [Engram layout by Arno Klein](https://github.com/binarybottle/engram)
+Based on [Engram layout by Arno Klein](https://github.com/binarybottle/engram).
 
 Edited with [Nick Coutsos's Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
 
